@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    text-align: center;
+    background-color: #3D79B6;
+}
+.top-container{
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+    margin: 0;
+}
+.middle-container{
+    margin-top: 100px;
+    background-color: #3D79B6;
+}
+.bottom-container{
+    background-color: #000080;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 500px;
+}
+.ocean{
+    width: 100%;
+    margin-top: 0;
+}
+.profile-picture{
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+}
+h1{
+    font-family: "Sacramento", cursive;
+    color: #66bfbf;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #66bfbf;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.profile-title{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+p {
+    line-height: 1.6;
+}
+.intro{
+    color: #96B9DC;
+    width: 30%;
+    margin: 0 auto auto auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+hr{
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.grid-container {
+    display: grid;
+    width: 50%;
+    grid-template-columns: 0.5fr 1fr; 
+    grid-template-rows: 1fr 1fr;    
+    gap: 20px;                      
+    align-items: center;
+    justify-content: center;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+.design-image{
+    width: 100%;
+    max-width: 200px; /* Adjust the maximum size of the image */
+    height: auto;
+}
+.text > p{
+    text-align: left;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.skills > h2{
+    align-items: center;
+    justify-content: center;
+}
+h3{
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+}
+.contact-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.contact-message{
+    width: 30%;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn{
+    background: #66bfbf;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+.footer-link{
+    text-decoration: none;
+    color: #11999e;
+    margin: 10px 20px;
+    font-size: 18px;
+}
+.copyright{
+    color: white;
+}
